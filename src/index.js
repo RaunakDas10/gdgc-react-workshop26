@@ -1,8 +1,7 @@
-import React from 'react';
+import React from 'react';//Basically Entry point of the Project
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +10,26 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+//DIgital Lego kit 
+//to help us building frontend
+//Frontend  html css js
+//Why we are using React?
+//1.Fast--- becayuse of Virtual Dom---Fast Forward button
+//Reusuability
+//More Organised --- React one folder one job
+//visibility is good// debugging is eaasy//code more organised //easyv to collab
+//Open Source 
+//ProjectStructure
+//Copmonents and Pages
+//./ is used for importing files from current directory
+//../ is used for importing files from parent directory
+//JSx--javascript XML-Extensaible Markup LANGUAE
+//in html predefined tags <p>,<h1>
+//<book><prisec>
+//Componets
+//Pages
+//Props are basically
+//it can be destructured
+//it is Read only
+//form
